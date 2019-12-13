@@ -190,7 +190,7 @@ public class A3 {
 			br = new BufferedReader(new FileReader("input-all.txt"));
 			//These are optional files you can use that I found on imdb
 			//br = new BufferedReader(new FileReader("input-bacon.txt"));
-			//br = new BufferedReader(new FileReader("MovieData.txt"));
+			
 			String line, title;
 			String [] actors;
 			while ((line = br.readLine()) != null)
