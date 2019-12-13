@@ -1,18 +1,16 @@
-  
+ import org.json.simple.*;
+import java.util.*;
+import org.json.simple.JSONArray;
+import org.json.simple.JSONObject;
+import org.json.simple.parser.JSONParser;
+import org.json.simple.parser.ParseException;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.*;
 
 
-/* Array of LinkedList Implementation of Movie-Actor R/ship.
-*  Essentially a vertice is an actor that is connected to other neighbors. (next neighbour)
-*  Every neighbor has an actor Index, movie name and is a part of a linked list (Not Java List). 
-*  Array of Linked Lists
-*  Vertex1 -> Neighbor1 -> Neighbor2 -> NULL
-*  Vertex2 -> Neighbor4 -> Neighbor1 -> NULL
-*  Vertex3 -> Neighbor5 -> Neighbor4 -> NULL
-*/
+
 
 // Connects the Actor and Movie.
 class Neighbor {
@@ -24,9 +22,8 @@ class Neighbor {
 		movie = _movie;
 		next = ngh;
 	}
-	public String toString() {
-		return ":--> " + movie + next;
-	}
+	
+	
 }
 
 
