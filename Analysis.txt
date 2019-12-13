@@ -1,0 +1,7 @@
+RUNTIME ANALYSIS
+
+
+Adding the movies is O(n)
+
+
+And finding the path is O(|V| + |E|) because I used BFS
